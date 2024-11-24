@@ -210,4 +210,4 @@ def show_spell():
             break  # End the game if the word is completed
 
     cap.release()
-    cv2.destroyAllWindows()
+   # cv2.destroyAllWindows()
