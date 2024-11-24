@@ -148,3 +148,4 @@ def show_recog():
             timer_placeholder.text(f"Counting... {time_detected / 30:.1f} seconds")
 
     cap.release()
+    cv.destroyAllWindows()
