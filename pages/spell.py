@@ -53,11 +53,9 @@ def show_spell():
     st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
     html, body, [class*="css"] {
         font-family: 'Poppins', sans-serif;
     }
-    
     [data-testid="stSidebarCollapsedControl"] {
         display: none !important;
     }
@@ -210,4 +208,3 @@ def show_spell():
             break  # End the game if the word is completed
 
     cap.release()
-    cv.destroyAllWindows()
