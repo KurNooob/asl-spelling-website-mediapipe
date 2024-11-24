@@ -111,7 +111,7 @@ def show_spell():
     status_placeholder.markdown(display_word_status(target_word, current_index, False), unsafe_allow_html=True)
 
     # Initialize video capture
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(CAP_V4L2)
 
     # Detection variables
     detection_timer = 30  # Frames to confirm a letter (e.g., 1 second at 30 FPS)
