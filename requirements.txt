@@ -8,3 +8,4 @@ scikit_learn==1.5.2
 seaborn==0.13.2
 streamlit==1.38.0
 streamlit_navigation_bar==3.3.0
+opencv-python-headless==4.5.1.48
