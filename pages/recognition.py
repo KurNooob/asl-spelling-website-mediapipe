@@ -64,7 +64,7 @@ def show_recog():
         timer_placeholder = st.empty()  # Show the timer
 
     # Initialize video capture and detection variables
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
     detected_word = ""
     last_detected_letter = None
     time_detected = 0
